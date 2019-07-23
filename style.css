@@ -1,5 +1,5 @@
-{.box
-size: 100px square 
-background-color: blue }
-{.container
-background-color: light gray }
+.box {
+size: 100px square;
+background-color:blue }
+.container {
+background-color:gray }
