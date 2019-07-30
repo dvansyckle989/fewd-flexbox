@@ -1,5 +1,45 @@
-.box {
-size: 100px square;
-background-color:blue }
 .container {
-background-color:gray }
+    background-color: lightgray;
+    display: flex;
+    margin: 10px;
+  }
+  ​
+  .box {
+    height: 100px;
+    flex: 1;
+    background-color: blue;
+  }
+  ​
+  .red {
+    background-color: red;
+  }
+  ​
+  .green {
+    background-color: green;
+  }
+  ​
+  .box p {
+    text-align: center;
+    color: white;
+  }
+  ​
+  .center-text {
+    text-align: center;
+  }
+  ​
+  .gary {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+  }
+  ​
+  .column1 {
+    flex: 2;
+  }
+  .column2 {
+    flex: 2;
+  }
+  .column3 {
+    flex: 1;
+  }
